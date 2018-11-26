@@ -15,7 +15,7 @@ House: https://api.propublica.org/congress/v1/members/house/MO/current.json
 You would use the following URL: https://api.propublica.org/congress/v1/senate/votes/2017-04-06/2017-04-07.json 
 
 
-In this response, which details all members leaving office, how would you get the first and last name of the first result in the list? (Hint: Use dictionary and list lookup syntax ...)
+4. In this response, which details all members leaving office, how would you get the first and last name of the first result in the list? (Hint: Use dictionary and list lookup syntax ...)
 
 You would type the following into python:
 
