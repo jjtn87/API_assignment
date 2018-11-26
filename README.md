@@ -25,6 +25,7 @@ import requests
 API_KEY = 'OylOqGPorg2UjpgDMgoGnVtRBKDhcNn7q6XF0rVb'
 
 url = 'https://api.propublica.org/congress/v1/115/senate/members/leaving.json'
+# alternatively: url = 'https://api.propublica.org/congress/v1/115/house/members/leaving.json'
 
 response = requests.get(url, headers={"X-API-Key": API_KEY}).content
 
